@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow-y: auto;
+    background-color: rgb(233,150,122);
+}
+section > div{
+    background-color: rgb(250,250,210);
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+section > div > h1{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+section > div > img{
+    display: block;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section > div > ul{
+    margin-top: 30px;
+}
+section > div > ul > li{
+    padding: 3px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+section > div > p{
+    padding-left: 8px;
+    font-size: 1.4em;
+}
